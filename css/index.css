@@ -1,0 +1,149 @@
+#top-header {
+	height: 20px;
+	width: 100%;
+	background-color: #424242;
+}
+
+#busqueda {
+	height: 400px;
+}
+
+#venta {
+	margin-top: -40px;
+	height: 450px;
+}
+
+.logo {
+	margin: 10px 10px 10px 10px;
+	font-size: 26px;
+	color: #FFFFFF;
+	float: left;
+}	
+
+.time {
+	margin: 10px 10px 10px 10px;
+	font-size: 26px;
+	color: #FFFFFF;
+	float: right;
+}	
+
+#input-article {
+	height: 50px;
+	width: 100%;
+	background-color: #DF013A;
+}
+
+.input-article {
+	padding: 10px;
+}
+
+label {
+	color: #FFFFFF !important;
+	font-size: 15px;
+}
+
+option {
+color: black !important;
+}
+
+#sell-items {
+	margin:0px;
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+}
+#total {
+	background: rgba(169,3,41,1);
+	background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+	background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	background: -o-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	background: -ms-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	background: linear-gradient(to bottom, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=0 );
+	width: 100%;
+	height: 80px;
+	color: #FFFF00;
+	font-size: 33px;
+	float: right;
+}
+.num {
+	background: rgba(248,80,50,1);
+	background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(232,55,38,1) 98%, rgba(231,56,39,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(50%, rgba(241,111,92,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(98%, rgba(232,55,38,1)), color-stop(100%, rgba(231,56,39,1)));
+	background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(232,55,38,1) 98%, rgba(231,56,39,1) 100%);
+	background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(232,55,38,1) 98%, rgba(231,56,39,1) 100%);
+	background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(232,55,38,1) 98%, rgba(231,56,39,1) 100%);
+	background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(232,55,38,1) 98%, rgba(231,56,39,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+	font-size: 32px;
+	color: #FFFFFF !important;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+.vuelto {
+	height: 99px;
+	background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+	background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+}
+
+.total-vuelto {
+	text-align: center;
+	font-size: 44px;
+	padding: 12px;
+	color: #FFFFFF;
+
+}
+
+.quick-btn {
+  background: #DF013A;
+  -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+  color: white;
+  display: inline-block;
+  height: 80px;
+  margin: 10px;
+  padding-top: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  position: relative;
+  font-size: 12px;
+}
+.quick-btn span {
+  display: block;
+}
+.quick-btn .label {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+.quick-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF0040;
+}
+.quick-btn.small {
+  width: 40px;
+  height: 30px;
+  padding-top: 6px;
+}
+
+#cajero {
+	font-size: 18px;
+	color: white;
+}
+
+
+
+
+
