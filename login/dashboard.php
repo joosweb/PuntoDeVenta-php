@@ -10,7 +10,7 @@ if(!$_SESSION['rut']) {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Simple Dashboard</title>
+    <title>Panel de Administración</title>
     <meta name="viewport" content="width=500, initial-scale=1, maximum-scale=1">
     
     <meta name="layout" content="main"/>
@@ -151,6 +151,16 @@ if(!$_SESSION['rut']) {
                     }
                     break;
 
+                case 'estadisticas':
+                    if(file_exists('pages/estadisticas.php')) {
+                      include('pages/estadisticas.php');
+                    }
+                    else
+                    {
+                      include('pages/404.html');
+                    }
+                    break;
+
                 case 'caja':
                     if(file_exists('pages/caja.php')) {
                       include('pages/caja.php');
@@ -199,6 +209,11 @@ if(!$_SESSION['rut']) {
                                 <li>
                                     <a href="dashboard.php?s=caja">
                                         <i class="fa fa-bar-chart fa-2x"></i> <br> Caja
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="dashboard.php?s=estadisticas">
+                                        <i class="fa fa-bar-chart fa-2x"></i> <br> Estadisticas
                                     </a>
                                 </li>
                                 <li>

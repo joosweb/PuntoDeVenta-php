@@ -22,7 +22,7 @@ $Producto = new Productos();
 			var total = $('#TotalVenta').html();
 			var res = total.replace(",", ""); 
 			var res = res.replace("$", ""); 
-			var MontoIngresado = $('#monto').val();
+			var MontoIngresado = $('#montoRecepcion').val();
 
 			var resultado = (MontoIngresado - res);
 
@@ -79,9 +79,9 @@ $Producto = new Productos();
 					  <div class="panel-body">
 					   <form class="form-inline">
 						  <div class="form-group">
-						    <input type="text" id="monto" placeholder="$">
+						    <input type="text" class="form-control" id="montoRecepcion" placeholder="$">
 						  </div>
-						  <button type="button" id="calcularVuelto" class="btn btn-warning btn-sm">Calcular vuelto</button>
+						  <button type="button" id="calcularVuelto" class="btn btn-warning">Calcular vuelto</button>
 						</form>
 					  </div>					 
 					</div>

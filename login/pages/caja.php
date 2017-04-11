@@ -25,7 +25,15 @@
                           { 
                           ?>
                           <?php if($_POST['GUARDAR'] == 'GUARDAR') { 
-                                $monto = $_POST['monto'];
+                              $monto = $_POST['monto'];
+                              if($monto == '') {
+                                echo '<div class="alert alert-dismissible alert-warning">
+                                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                        Por favor ingrese un monto en la casilla solicitada..
+                                      </div>';
+                              }
+                              else
+                              {
                               if($Producto->IngresarCajaDiaria($monto)) {
                                   echo '<div class="alert alert-dismissible alert-success">
                                         <button type="button" class="close" data-dismiss="alert">&times;</button>
@@ -39,6 +47,7 @@
                                        Ha ocurrido un error, por favor contacte con un administrador.
                                       </div>';
                               }
+                            }
                           }?>
                           <form action="dashboard.php?s=caja" method="post">
                            <div class="form-group">

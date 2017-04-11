@@ -24,9 +24,9 @@ $Producto = new Productos();
 			       		<td>Total de Ventas del dia:</td>
 			       		<td><?php echo $Producto->moneda($Producto->TotalVentasDelDia(), 'pesos'); ?></td>
 			       	</tr>
-			       	<tr class="danger">
-			       		<td>Total en caja:</td>
-			       		<td><?php echo $Producto->moneda(($Producto->TotalCajaInicialMenosGastos() + $Producto->TotalVentasDelDia()), 'pesos'); ?></td>
+			       	<tr class="danger" style="font-size:14px;">
+			       		<td><span style="font-size:16px;">Total en caja:</span></td>
+			       		<td><span style="font-size:16px;"><?php echo $Producto->moneda(($Producto->TotalCajaInicialMenosGastos() + $Producto->TotalVentasDelDia()), 'pesos'); ?></span></td>
 			       	</tr>
 			       </table>
 			       <hr>
