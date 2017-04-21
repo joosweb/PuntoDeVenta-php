@@ -14,8 +14,7 @@ if(!$_SESSION['rut']) {
     <meta name="viewport" content="width=500, initial-scale=1, maximum-scale=1">
     
     <meta name="layout" content="main"/>
-    
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
 
     <script src="../js/jquery/jquery-1.8.2.min.js" type="text/javascript" ></script>
     <link href="../css/font-awesome.css" type="text/css" media="screen, projection" rel="stylesheet" />
